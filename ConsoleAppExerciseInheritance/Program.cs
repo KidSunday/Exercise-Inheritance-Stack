@@ -10,6 +10,10 @@ namespace ConsoleAppExerciseInheritance
     {
         static void Main(string[] args)
         {
+            //Exercises for Section 4, Lecture 26 of C# Intetmediate Classes
+            //https://www.udemy.com/csharp-intermediate-classes-interfaces-and-oop
+            //Inheritance Exercise 1
+            //Create a Stack 
 
             //Test Implementation Code for Exercise
             var stack = new Stack();

@@ -34,7 +34,7 @@ namespace ConsoleAppExerciseInheritance
         public void Clear()
         {
             stackList.Clear();
-            Console.WriteLine("Stack Cleared");
+            //Console.WriteLine("Stack Cleared"); 
         }
     }
 }
