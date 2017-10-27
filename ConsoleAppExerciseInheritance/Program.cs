@@ -25,22 +25,27 @@ namespace ConsoleAppExerciseInheritance
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
+            stack.Clear();
             //Intended output should be: 3, 2, 1
 
-
+            //
             //Personal Unit Tests
+            //
             var stack2 = new Stack();
 
             //Console.WriteLine(stack2.Pop()); //Test Empty Stack Pop
             //stack2.Push(null); //Test Null stack Push
-            stack2.Push(1);
-            stack2.Push(2);
-            stack2.Push(3);
+            stack2.Push(7);
+            stack2.Push(12);
+            stack2.Push(5);
+            stack2.Push("test string");
 
+            //No clear path to List Must manually Pop - No ForEach
             Console.WriteLine(stack2.Pop());
             Console.WriteLine(stack2.Pop());
             Console.WriteLine(stack2.Pop());
-            
+            Console.WriteLine(stack2.Pop());
+
             //Clean up our Stack
             stack2.Clear();
 
